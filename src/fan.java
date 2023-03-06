@@ -1,14 +1,14 @@
 public class fan {
-    int SLOW =1;
-    int MEDIUM=2;
-    int FAST =3;
-    int speed =SLOW;
+   final int SLOW =1;
+   final int MEDIUM=2;
+  final   int FAST =3;
+    private int speed =SLOW;
 
 
 
     private boolean  specifiesWhetherTheFan=false;
     private double radius =5;
-     String color ="blue";
+    private String color ="blue";
 
 
 
